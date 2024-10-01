@@ -57,7 +57,7 @@ public class Client
         this.illa = illa;
     }
     
-    public String toArrayString()
+    public String[] toArrayString()
     {
          String[] s = new String[4];
          s[0] = nom;
@@ -65,6 +65,6 @@ public class Client
          s[2] = date.toString();
          s[3] = illa;
          
-         return Arrays.toString(s);
+         return s;
     }
 }
